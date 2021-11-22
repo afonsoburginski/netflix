@@ -77,7 +77,7 @@ $ git push origin minha-alteracao
 ```
 Você deve navegar até o seu repositório onde fez o fork e clicar no botão *New pull request* no lado esquerdo da página.
 
-## :rocket: Autor
+##  Autor
 -  [Github](https://github.com/afonsoburginski/)
 -  [Linkedin](https://www.linkedin.com/in/afonso-kevin-burginski-76aa05175/)
 -  [Email](mailto:burginskikevin@gmail.com/)
