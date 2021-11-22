@@ -5,7 +5,7 @@
 
 
 ## :rocket: Tecnologias
--  [JavaScript](https://www.javascript.com/)
+-  JavaScript
 -  React.js
 -  React-icons
 -  Styled-Components
@@ -32,7 +32,7 @@ Todos os dados dos catálogos como título, descrição, capa, foto de backgroun
 - [ ] **Listagem Infinita**: Ao chegar no final da lista dos catálogos deve-se apresentar os mesmos itens do início.
 
 
-## 📥 Instalação e execução
+## :electric_plug: Instalação e execução
 
 Faça um clone desse repositório e acesse o diretório.
 
@@ -52,7 +52,7 @@ $ yarn
 $ yarn start
 ```
 
-## :muscle: Contribuir
+## :space_invader: Contribuir
 
 Faça o `fork` e clone o projeto a partir do seu usuário.
 
@@ -82,6 +82,6 @@ Você deve navegar até o seu repositório onde fez o fork e clicar no botão *N
 -  [Linkedin](https://www.linkedin.com/in/afonso-kevin-burginski-76aa05175/)
 -  [Email](mailto:burginskikevin@gmail.com/)
 
-## 📝 Licença
+## :alien: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
