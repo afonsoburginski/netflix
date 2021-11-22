@@ -32,7 +32,7 @@ Todos os dados dos catálogos como título, descrição, capa, foto de backgroun
 - [ ] **Listagem Infinita**: Ao chegar no final da lista dos catálogos deve-se apresentar os mesmos itens do início.
 
 
-## :electric_plug: Instalação e execução
+## :computer_mouse: Instalação e execução
 
 Faça um clone desse repositório e acesse o diretório.
 
