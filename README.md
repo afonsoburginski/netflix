@@ -1,74 +1,87 @@
-# Este Projeto foi Desenvolvido por Afonso Burginski em Conjunto à Aula do Professor Bonieky Lacerda
-Sobre a aula em questão [🔥 Clone do NETFLIX em REACTJS](https://www.youtube.com/watch?v=tBweoUiMsDg)
-Total de horas investidas no projeto = 60h
 
-# Getting Started with Create React App
+<h3 align = "center" fontSize="60px">
+  Clone da plataforma de streaming <a href="https://www.netflix.com/">Netflix</a>
+</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## :rocket: Tecnologias
+-  [JavaScript](https://www.javascript.com/)
+-  React.js
+-  React-icons
+-  Styled-Components
+## 💻 Sobre o projeto
 
-In the project directory, you can run:
+Interface da netflix reacriada [Netflix](https://www.netflix.com) com o objetivo de estudo e treinamento de habilidades como o React.JS e CSS3. O projeto foi desenvolvido em conjunto à aula do professor [Bonieky Lacerda](https://www.youtube.com/watch?v=tBweoUiMsDg&ab_channel=BoniekyLacerda) como material de apoio.
 
-### `yarn start`
+Todos os dados dos catálogos como título, descrição, capa, foto de background e avaliação foram extraídos ao usar a [API TMDb](https://www.themoviedb.org/documentation/api).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Funcionalidades
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [x] **Spinning Loading**: Efeito ao trazer os dados da API.
 
-### `yarn test`
+- [x] **Catálogo Destaque**: Selecionar um catálogo de forma aleatória e apresentá-lo na página inicial.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [x] **Listagem Sessões**: Ao consumir a API separar os catálogos em sessões.
 
-### `yarn build`
+- [x] **Efeito Menu**: Criar um efeito no background do menu conforme o scroll da tela do usuário.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [x] **Cartão Catálogo**: Apresentar um cartão com os detalhes do catálogo ao passar o mouse por cima da capa.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [x] **Listagem Carrossel**: Apresentar botões de controle para manipular a visualização dos itens da sessão.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [ ] **Listagem Infinita**: Ao chegar no final da lista dos catálogos deve-se apresentar os mesmos itens do início.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 📥 Instalação e execução
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Faça um clone desse repositório e acesse o diretório.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+$ git clone git@github.com:afonsoburginski/netflix-project.git && cd netflix-project
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Para ter acesso a API você precisará de uma chave, basta criar uma conta no TMDB para ter acesso, [link do cadastro](https://www.themoviedb.org/signup). Caminho da chave: **Perfil -> Configurações -> API -> Chave da API**
 
-## Learn More
+Renomeie o arquivo `.env.example` para `.env` e cole o valor da sua chave no campo **REACT_APP_API_KEY**. Agora instale as dependências e execute o projeto:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Instalando as dependências
+$ yarn
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Executanto aplicação
+$ yarn start
+```
 
-### Code Splitting
+## :muscle: Contribuir
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Faça o `fork` e clone o projeto a partir do seu usuário.
 
-### Analyzing the Bundle Size
+```bash
+# Clonando projeto
+$ git clone https://github.com/SEU-NOME-DE-USUARIO/netflix-clone.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Criando um branch
+$ git branch minha-alteracao
 
-### Making a Progressive Web App
+# Acessando o novo branch
+$ git checkout -b minha-alteracao
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Adicionando os arquivos alterados
+$ git add .
 
-### Advanced Configuration
+# Criando commit e a mensagem
+$ git commit -m "Corrigindo...."
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Enviando alterações para o brach
+$ git push origin minha-alteracao
+```
+Você deve navegar até o seu repositório onde fez o fork e clicar no botão *New pull request* no lado esquerdo da página.
 
-### Deployment
+## :rocket: Autor
+-  [Github](https://github.com/afonsoburginski/)
+-  [Linkedin](https://www.linkedin.com/in/afonso-kevin-burginski-76aa05175/)
+-  [Email](mailto:burginskikevin@gmail.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📝 Licença
 
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
