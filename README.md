@@ -67,7 +67,7 @@ $ git branch minha-alteracao
 $ git checkout -b minha-alteracao
 
 # Adicionando os arquivos alterados
-$ git add .
+$ git add.
 
 # Criando commit e a mensagem
 $ git commit -m "Corrigindo...."
