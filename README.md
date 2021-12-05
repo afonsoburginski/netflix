@@ -2,6 +2,8 @@
 <h3 align = "center" fontSize="60px">
   Clone da plataforma de streaming <a href="https://www.netflix.com/">Netflix</a>
 </h3>
+<p align="center">
+    <img src="src/assets/netflix-screen.png.jpg" alt="Logo" height=630></a>
 
 
 ## :rocket: Tecnologias
