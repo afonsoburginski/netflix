@@ -13,7 +13,7 @@
 -  Styled-Components
 ## 💻 Sobre o projeto
 
-Interface da netflix reacriada [Netflix](https://www.netflix.com) com o objetivo de estudo e treinamento de habilidades como o React.JS e CSS3. O projeto foi desenvolvido em conjunto à aula do professor [Bonieky Lacerda](https://www.youtube.com/watch?v=tBweoUiMsDg&ab_channel=BoniekyLacerda) como material de apoio.
+Interface da [Netflix](https://www.netflix.com) com o objetivo de estudo e treinamento de habilidades como o React.JS e CSS3. O projeto foi desenvolvido em conjunto à aula do professor [Bonieky Lacerda](https://www.youtube.com/watch?v=tBweoUiMsDg&ab_channel=BoniekyLacerda) como material de apoio.
 
 Todos os dados dos catálogos como título, descrição, capa, foto de background e avaliação foram extraídos ao usar a [API TMDb](https://www.themoviedb.org/documentation/api).
 
