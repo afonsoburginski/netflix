@@ -3,7 +3,7 @@
   Clone da plataforma de streaming <a href="https://www.netflix.com/">Netflix</a>
 </h3>
 <p align="center">
-    <img src="src/img/netflix-screen.png" alt="Logo" height=600></a>
+    <img src="src/img/netflix-screen.png" alt="Logo" height=460></a>
 
 
 ## :rocket: Tecnologias
