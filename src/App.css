@@ -40,6 +40,6 @@ a {
   background-color: #000;
   display: flex;
   justify-content: center;
-  align-items: flex;
-  animation-timing-function: 3000ms;
+  align-items: fixed;
+  animation-delay: 3s;
 }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './MovieRow.css';
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
+import './MovieRow.css';
 
 export default ({title, items}) => {
   const [scrollX, setScrollX] = useState(0);
@@ -12,7 +12,7 @@ export default ({title, items}) => {
       x = 0;
     }
     setScrollX(x);
-  }
+  };
 
   const handleRightArrow = () => {
     let x = scrollX - Math.round(window.innerWidth / 2);
@@ -21,7 +21,7 @@ export default ({title, items}) => {
       x = (window.innerWidth-listW) - 60;
     }
     setScrollX(x);
-  }
+  };
 
   return (
     <div className="movieRow">
@@ -47,5 +47,5 @@ export default ({title, items}) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
