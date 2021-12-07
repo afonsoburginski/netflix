@@ -64,7 +64,7 @@ export default () => {
         Direitos de imagem à <a href="https://www.netflix.com.br">Netflix</a><br/>
       </footer>
 
-      {movieList.length <= 0 &&
+      {movieList.length <= 1 &&
         <div className="loading">
           <img src="https://media.filmelier.com/noticias/br/2020/03/Netflix_LoadTime.gif" alt="Carregando"/>
         </div>
