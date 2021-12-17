@@ -40,6 +40,8 @@ a {
   background-color: #000;
   display: flex;
   justify-content: center;
-  align-items: fixed;
+  align-items: flex;
   animation-delay: 3s;
+  margin: -50px;
+  padding: 200px;
 }
